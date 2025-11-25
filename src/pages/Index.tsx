@@ -24,10 +24,19 @@ const Index = () => {
           <Button
             size="lg"
             className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            onClick={() => navigate("/ai-chat")}
+          >
+            <Heart className="mr-2 h-5 w-5 fill-current" />
+            Chat with Your Match
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             onClick={() => navigate("/chat")}
           >
             <MessageCircle className="mr-2 h-5 w-5" />
-            Start Chatting
+            Public Chat Room
           </Button>
         </div>
 
