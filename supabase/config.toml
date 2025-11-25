@@ -1,1 +1,8 @@
 project_id = "kndmvfrhdvthwutbscug"
+
+[functions]
+enabled = true
+region = "us-east-1"
+
+[functions.ai-chat]
+verify_jwt = false
